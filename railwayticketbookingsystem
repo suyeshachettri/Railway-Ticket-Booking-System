@@ -28,7 +28,6 @@ return False
 else:
 print("Train not found.")
 return False
-
 def book_tickets(train, class_type, num_seats):
 if check_availability(train, class_type, num_seats):
 index = trains[trains['Train'] == train].index[0]
